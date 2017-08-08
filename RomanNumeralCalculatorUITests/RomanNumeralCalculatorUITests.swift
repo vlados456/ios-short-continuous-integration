@@ -43,16 +43,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         
         app.staticTexts["calculated_value"].press(forDuration: 0.8);
         
-        let calculatedLabel = app.staticTexts["calculated_value"]
-        
-        iButton.tap()
-        XCTAssertEqual(calculatedLabel.label, "I")
-        
-        iButton.tap()
-        XCTAssertEqual(calculatedLabel.label, "II")
-        
-        iButton.tap()
-        XCTAssertEqual(calculatedLabel.label, "II")
+
     }
     
 }
